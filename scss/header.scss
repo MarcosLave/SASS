@@ -1,0 +1,26 @@
+header{
+    background-color: saddlebrown;
+    div{
+        padding: 10px;
+        h3{
+            font-size: 30px;
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        color:red;
+    }
+}
+.encabezado {
+    background-color: aquamarine;
+    &--texto{
+        font:{
+        size: 20px;
+        weight: bold;
+        }
+
+    }
+}
